@@ -153,6 +153,7 @@ var phoneName = <a href="phonegap_device_device.md.html#device.name">device.name
 <li>BlackBerry WebWorks (OS 5.0 and higher)</li>
 <li>iPhone</li>
 <li>Windows Phone 7 ( Mango )</li>
+<li>webOS</li>
 </ul>
 <h2>
 <a name="device.name_quick_example">Quick Example</a>
@@ -312,6 +313,7 @@ var <a href="phonegap_storage_storage.md.html#name">name</a> = <a href="phonegap
 <li>BlackBerry WebWorks (OS 5.0 and higher)</li>
 <li>iPhone</li>
 <li>Windows Phone 7 ( Mango )</li>
+<li>webOS</li>
 </ul>
 <h2>
 <a name="device.platform_quick_example">Quick Example</a>
@@ -321,7 +323,7 @@ var <a href="phonegap_storage_storage.md.html#name">name</a> = <a href="phonegap
 //   - "Android"
 //   - "BlackBerry"
 //   - "iPhone"
-//   - "webOS"
+//   - "palm"
 //   - "WinCE"
 var devicePlatform = <a href="phonegap_device_device.md.html#device.platform">device.platform</a>;
 </code></pre>
@@ -398,6 +400,7 @@ var devicePlatform = <a href="phonegap_device_device.md.html#device.platform">de
 <li>BlackBerry WebWorks (OS 5.0 and higher)</li>
 <li>iPhone</li>
 <li>Windows Phone 7 ( Mango )</li>
+<li>webOS</li>
 </ul>
 <h2>
 <a name="device.uuid_quick_example">Quick Example</a>
@@ -416,6 +419,7 @@ var devicePlatform = <a href="phonegap_device_device.md.html#device.platform">de
 // Windows Phone 7 : Returns a hash of device+current user, 
 // if the user is not defined, a guid is generated and will persist until the app is uninstalled
 // 
+// webOS: returns the device NDUID
 var deviceID = <a href="phonegap_device_device.md.html#device.uuid">device.uuid</a>;
 </code></pre>
 
@@ -473,6 +477,7 @@ var deviceID = <a href="phonegap_device_device.md.html#device.uuid">device.uuid<
 <li>BlackBerry WebWorks (OS 5.0 and higher)</li>
 <li>iPhone</li>
 <li>Windows Phone 7 ( Mango )</li>
+<li>webOS</li>
 </ul>
 <h2>
 <a name="device.version_quick_example">Quick Example</a>
@@ -487,6 +492,8 @@ var deviceID = <a href="phonegap_device_device.md.html#device.uuid">device.uuid<
 // iPhone:     iOS 3.2 returns "3.2"
 //
 // Windows Phone 7: returns current OS <a href="phonegap_storage_storage.md.html#version">version</a> number, ex. on Mango returns 7.10.7720
+//
+// webOS: webOS 2.2.4 returns 2.2.4
 var deviceVersion = <a href="phonegap_device_device.md.html#device.version">device.version</a>;
 </code></pre>
 
