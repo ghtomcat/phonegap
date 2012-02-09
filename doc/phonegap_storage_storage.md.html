@@ -648,9 +648,9 @@ db.transaction(queryDB, errorCB);
 
 function querySuccess(tx, results) {
     var len = results.rows.length;
- � console.log("DEMO table: " + len + " rows found.");
-��� for (var i=0; i&lt;len; i++){
-����    console.log("Row = " + i + " ID = " + results.rows.item(i).id + " Data =  " + results.rows.item(i).data);
+    console.log("DEMO table: " + len + " rows found.");
+    for (var i=0; i&lt;len; i++){
+         console.log("Row = " + i + " ID = " + results.rows.item(i).id + " Data =  " + results.rows.item(i).data);
     }
 }
 
